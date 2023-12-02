@@ -143,8 +143,6 @@ in
           }
         });
       '';
-
-      xdg.portal.configPackages = mkDefault [ pkgs.gamescope-session ];
     })
   ]);
 }
